@@ -44,9 +44,10 @@ function countdown() {
     // if(remTime <= june3) {
     //     document.getElementById("answer").textContent = "One day closer.";
     // } else 
-    if(remTime <= june4) {
-        document.getElementById("answer").textContent = "Nope.";
-    } else if(remTime = twoWeeks) {
+    // if(remTime <= june4) {
+    //     document.getElementById("answer").textContent = "Nope.";
+    // } else 
+    if(remTime = twoWeeks) {
         document.getElementById("answer").textContent = "Two more weeks.";
     }  else if(remTime <= june6) {
         document.getElementById("answer").textContent = "Only if 'Yes' is spelled N-O.";
