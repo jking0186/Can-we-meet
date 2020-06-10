@@ -58,9 +58,10 @@ function countdown() {
     // if(remTime <= june8) {
     //     document.getElementById("answer").textContent = "Slow and steady wins the race.";
     // } else 
-    if(remTime <= june9) {
-        document.getElementById("answer").textContent = "You look so pretty today, but no.";
-    } else if(remTime <= june10) {
+    // if(remTime <= june9) {
+    //     document.getElementById("answer").textContent = "You look so pretty today, but no.";
+    // } else 
+    if(remTime <= june10) {
         document.getElementById("answer").textContent = "Date night can't get here soon enough.";
     } else if(remTime <= june11) {
         document.getElementById("answer").textContent = "Ugh, no.";
