@@ -61,9 +61,10 @@ function countdown() {
     // if(remTime <= june9) {
     //     document.getElementById("answer").textContent = "You look so pretty today, but no.";
     // } else 
-    if(remTime <= june10) {
-        document.getElementById("answer").textContent = "Date night can't get here soon enough.";
-    } else if(remTime <= june11) {
+    // if(remTime <= june10) {
+    //     document.getElementById("answer").textContent = "Date night can't get here soon enough.";
+    // } else 
+    if(remTime <= june11) {
         document.getElementById("answer").textContent = "Ugh, no.";
     } else if(remTime <= oneWeek) {
         document.getElementById("answer").textContent = "We're so close. One week to go.";
