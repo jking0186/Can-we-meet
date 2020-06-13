@@ -67,9 +67,10 @@ function countdown() {
     // if(remTime <= june11) {
     //    document.getElementById("answer").textContent = "Ugh, no.";
     // } else 
-    if(remTime <= oneWeek) {
-        document.getElementById("answer").textContent = "We're so close. One week to go.";
-    } else if(remTime <= june13) {
+    // if(remTime <= oneWeek) {
+    //    document.getElementById("answer").textContent = "We're so close. One week to go.";
+    // } else 
+    if(remTime <= june13) {
         document.getElementById("answer").textContent = "The anticipation is killing me.";
     } else if(remTime <= june14) {
         document.getElementById("answer").textContent = "It's a no.";
