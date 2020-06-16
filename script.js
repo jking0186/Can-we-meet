@@ -76,9 +76,10 @@ function countdown() {
     // if(remTime <= june14) {
     //    document.getElementById("answer").textContent = "It's a no.";
     // } else 
-       if(remTime <= daysAway) {
-        document.getElementById("answer").textContent = "Literally days away.";
-    } else if(remTime <= comeSoFar) {
+    //   if(remTime <= daysAway) {
+    //    document.getElementById("answer").textContent = "Literally days away.";
+    // } else 
+       if(remTime <= comeSoFar) {
         document.getElementById("answer").textContent = "Don't give up now. We've come so far.";
     } else if(remTime <= canYou) {
         document.getElementById("answer").textContent = "Wow! Two days left.";
