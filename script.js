@@ -79,9 +79,10 @@ function countdown() {
     //   if(remTime <= daysAway) {
     //    document.getElementById("answer").textContent = "Literally days away.";
     // } else 
-       if(remTime <= comeSoFar) {
-        document.getElementById("answer").textContent = "Don't give up now. We've come so far.";
-    } else if(remTime <= canYou) {
+    //   if(remTime <= comeSoFar) {
+    //    document.getElementById("answer").textContent = "Don't give up now. We've come so far.";
+    // } else 
+       if(remTime <= canYou) {
         document.getElementById("answer").textContent = "Wow! Two days left.";
     } else if(remTime <= oneDay) {
         document.getElementById("answer").textContent = "One more day.";
