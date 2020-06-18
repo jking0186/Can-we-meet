@@ -41,50 +41,6 @@ function countdown() {
     document.getElementById("minutes").textContent = m;
     document.getElementById("seconds").textContent = s;
 
-    // if(remTime <= june3) {
-    //     document.getElementById("answer").textContent = "One day closer.";
-    // } else 
-    // if(remTime <= june4) {
-    //     document.getElementById("answer").textContent = "Nope.";
-    // } else 
-    // if(remTime = twoWeeks) {
-    //     document.getElementById("answer").textContent = "Two more weeks.";
-    // }  else 
-    // if(remTime <= june6) {
-    //     document.getElementById("answer").textContent = "Less than two weeks away.";
-    // } else if(remTime <= june7) {
-    //     document.getElementById("answer").textContent = "Not likely.";
-    // } else  
-    // if(remTime <= june8) {
-    //     document.getElementById("answer").textContent = "Slow and steady wins the race.";
-    // } else 
-    // if(remTime <= june9) {
-    //     document.getElementById("answer").textContent = "You look so pretty today, but no.";
-    // } else 
-    // if(remTime <= june10) {
-    //     document.getElementById("answer").textContent = "Date night can't get here soon enough.";
-    // } else 
-    // if(remTime <= june11) {
-    //    document.getElementById("answer").textContent = "Ugh, no.";
-    // } else 
-    // if(remTime <= oneWeek) {
-    //    document.getElementById("answer").textContent = "We're so close. One week to go.";
-    // } else 
-    // if(remTime <= june13) {
-    //    document.getElementById("answer").textContent = "The anticipation is killing me.";
-    // } else 
-    // if(remTime <= june14) {
-    //    document.getElementById("answer").textContent = "It's a no.";
-    // } else 
-    //   if(remTime <= daysAway) {
-    //    document.getElementById("answer").textContent = "Literally days away.";
-    // } else 
-    //   if(remTime <= comeSoFar) {
-    //    document.getElementById("answer").textContent = "Don't give up now. We've come so far.";
-    // } else 
-    //   if(remTime <= canYou) {
-    //    document.getElementById("answer").textContent = "Wow! Two days left.";
-    // } else 
        if(remTime <= oneDay) {
         document.getElementById("answer").textContent = "One more day.";
     } else if(remTime <= hoursLeft) {
