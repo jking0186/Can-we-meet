@@ -82,9 +82,10 @@ function countdown() {
     //   if(remTime <= comeSoFar) {
     //    document.getElementById("answer").textContent = "Don't give up now. We've come so far.";
     // } else 
-       if(remTime <= canYou) {
-        document.getElementById("answer").textContent = "Wow! Two days left.";
-    } else if(remTime <= oneDay) {
+    //   if(remTime <= canYou) {
+    //    document.getElementById("answer").textContent = "Wow! Two days left.";
+    // } else 
+       if(remTime <= oneDay) {
         document.getElementById("answer").textContent = "One more day.";
     } else if(remTime <= hoursLeft) {
         document.getElementById("answer").textContent = "Just a few more hours.";
