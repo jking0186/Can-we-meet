@@ -18,13 +18,16 @@ function countdown() {
     s %= 60;
 
     h = (h < 10) ? "0" + h : h;
-    m = (h < 10) ? "0" + m : m; 
-    s = (h < 10) ? "0" + s : s;
+    m = (m < 10) ? "0" + m : m; 
+    s = (s < 10) ? "0" + s : s;
     document.getElementById("days").textContent = d;
     document.getElementById("hours").textContent = h;
     document.getElementById("minutes").textContent = m;
     document.getElementById("seconds").textContent = s;
 
+    if(remTime <= hoursLeft) {
+        document.getElementById("answer").textContent = "Just a few more hours.";
+    } else if(remTime <= eventDate) {
     if(remTime <= eventDate) {
         document.getElementById("answer").textContent = "YES! WE CAN MEET!";
         table.style.display = "none";
