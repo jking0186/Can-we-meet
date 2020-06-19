@@ -41,11 +41,7 @@ function countdown() {
     document.getElementById("minutes").textContent = m;
     document.getElementById("seconds").textContent = s;
 
-       if(remTime <= oneDay) {
-        document.getElementById("answer").textContent = "One more day.";
-    } else if(remTime <= hoursLeft) {
-        document.getElementById("answer").textContent = "Just a few more hours.";
-    } else if(remTime <= eventDate) {
+    if(remTime <= eventDate) {
         document.getElementById("answer").textContent = "YES! WE CAN MEET!";
         table.style.display = "none";
     } else {
