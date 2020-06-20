@@ -26,9 +26,7 @@ function countdown() {
     document.getElementById("seconds").textContent = s;
 
     
-    if(remTime <= hoursLeft) {
-        document.getElementById("answer").textContent = "Just a few more hours.";
-    } else if(remTime <= eventDate) {
+    if(remTime <= eventDate) {
         document.getElementById("answer").textContent = "YES! WE CAN MEET!";
         table.style.display = "none";
     } else {
