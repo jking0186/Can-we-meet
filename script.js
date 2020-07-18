@@ -1,7 +1,7 @@
 function countdown() {
     var now = new Date();
-    var eventDate = new Date("June 19, 2020 16:00:00");
-    var hoursLeft = new Date("June 19, 2020");
+    var eventDate = new Date("November 15, 2020 00:00:00");
+    var hoursLeft = new Date("November 15, 2020");
     var table = document.querySelector("#table")
 
     
@@ -27,12 +27,10 @@ function countdown() {
 
     
     if(remTime <= hoursLeft) {
-        document.getElementById("answer").textContent = "Just a few more hours.";
+        document.getElementById("answer").textContent = "No";
     } else if(remTime <= eventDate) {
-        document.getElementById("answer").textContent = "YES! WE CAN MEET!";
+        document.getElementById("answer").textContent = "YES! Happy Birthday!";
         table.style.display = "none";
-    } else {
-        document.getElementById("answer").textContent = "Not yet.";
     }
 
     setTimeout(countdown, 1000);
